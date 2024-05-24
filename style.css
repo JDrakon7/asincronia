@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+html{
+  font-family: "Madimi One", sans-serif;
+}
+.header {
+  border: 1px solid black;
+
+}
+.header__icon{
+  width: 5vh;
+  height: 5vh;
+  margin-right: 50vh;
+}
+
+
+/* **********HEADER*********** */
+.header__nav-list {
+  display: flex;
+  background-color: yellow;
+  justify-content: flex-start; 
+  padding: auto;
+  margin: auto;
+}
+.header__nav-item {
+  list-style: none;
+  margin: 7px;
+  background-color: transparent;
+  border: none;
+  margin-right: 10vh;
+}
+
+.header__nav-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header__nav-link:hover {
+  color: #999860;
+}
+
+
+.ejercicio{
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(2, 2, 2, 0.1);
+}
+
+.ejercicio__titulo{
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  
+}
+
+.ejercicio__lista {
+  list-style: none;
+  padding: 0;
+}
+
+.ejercicio__lista li {
+   display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  transition: background-color 0.3s ease; 
+  
+  
+}
+
+.ejercicio__lista a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 25px;
+}
+
+.ejercicio__lista a:hover {
+  text-decoration: underline;
+}
+.ejercicio__lista li:hover {
+  background-color: #a69fff; 
+}

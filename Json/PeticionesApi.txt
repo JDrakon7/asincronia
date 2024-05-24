@@ -1,0 +1,15 @@
+ENLACE PARA API NORMAL
+
+https://api.github.com
+
+ENLACE PARA API PARA REVISAR LOS USUARIOS
+
+https://api.github.com/users
+
+ENLACE API PARA ENCONTRAR SU USUARIO
+
+https://api.github.com/users/${NombrePerfil}
+
+ENLACE API PARA REVISAR LOS REPOSITORIOS PUBLICOS DE ESE USUARIO
+
+https://api.github.com/users/${NombrePerfil}/Repos
